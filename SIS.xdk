@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "1a027a80-c77b-4542-91ae-5828feeb796c",
-      "lastModifiedDate": 1504171020068,
+      "lastModifiedDate": 1504172378709,
       "creationDate": 1504170472589
     },
     "testDirectory": "test",
@@ -28,10 +28,11 @@
         "runtime_": "Crosswalk with Cordova 3.x",
         "name_": "Android",
         "preferences_": {
-          "android-minSdkVersion": "14",
+          "android-minSdkVersion": "16",
           "android-targetSdkVersion": "23",
           "android-installLocation": "auto",
-          "android-signed": true
+          "android-signed": true,
+          "AndroidLaunchMode": "singleTop"
         },
         "isActive_": true,
         "certificateId_": "WOD5_g660UKG6Eq0_koW-Q2",
@@ -52,6 +53,12 @@
             "relPath": "package-assets/logo.png",
             "width": 72,
             "height": 72
+          },
+          {
+            "density": "mdpi",
+            "relPath": "package-assets/logo-sis2.png",
+            "width": 48,
+            "height": 48
           }
         ],
         "splashes_": [],
