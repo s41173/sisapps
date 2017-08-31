@@ -4,23 +4,15 @@
       "type": "Import",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
-      "projectGuid": "a38eefbb-9c41-436f-bd9f-39901ef02098",
-      "lastModifiedDate": 1504055639126,
-      "creationDate": 1504050427754
+      "projectGuid": "1a027a80-c77b-4542-91ae-5828feeb796c",
+      "lastModifiedDate": 1504171020068,
+      "creationDate": 1504170472589
     },
     "testDirectory": "test",
     "projectTags": [
       "XDK-disallow-legacy-whitelist"
     ],
-    "projectFiles": {
-      "xdk-publish-meta-data.json": {
-        "settings": {
-          "project": {
-            "XDK-not-deployed": "True"
-          }
-        }
-      }
-    },
+    "projectFiles": {},
     "projectDirectories": {
       "xdk": {
         "settings": {
@@ -54,13 +46,22 @@
           "navigation": []
         },
         "addlPermissions_": "",
-        "icons_": [],
+        "icons_": [
+          {
+            "density": "hdpi",
+            "relPath": "package-assets/logo.png",
+            "width": 72,
+            "height": 72
+          }
+        ],
         "splashes_": [],
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
         "signed_": true,
         "crosswalkVersion_": "23",
-        "cordovaCLIVersion_": "6.2.0"
+        "cordovaCLIVersion_": "6.2.0",
+        "appDescription_": "Academic Record",
+        "appAuthor_": "Dswip Kreasindo"
       },
       "iOS": {
         "platform_": "ios",
@@ -177,10 +178,10 @@
       }
     },
     "serviceMethods": [],
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [],
     "sourceDirectory": "www",
     "startFile": "index.html",
-    "projectSettingsVersion": "3.0.0",
-    "cordovaPluginsDirectory": "plugins",
-    "cordovaPlugins": []
+    "projectSettingsVersion": "3.0.0"
   }
 }
