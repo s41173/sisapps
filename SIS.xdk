@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "1a027a80-c77b-4542-91ae-5828feeb796c",
-      "lastModifiedDate": 1504172378709,
+      "lastModifiedDate": 1504174229698,
       "creationDate": 1504170472589
     },
     "testDirectory": "test",
@@ -59,6 +59,18 @@
             "relPath": "package-assets/logo-sis2.png",
             "width": 48,
             "height": 48
+          },
+          {
+            "density": "ldpi",
+            "relPath": "package-assets/logo-sis36.png",
+            "width": 36,
+            "height": 36
+          },
+          {
+            "density": "xhdpi",
+            "relPath": "package-assets/logo-sma96.png",
+            "width": 96,
+            "height": 96
           }
         ],
         "splashes_": [],
