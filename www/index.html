@@ -12,6 +12,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
      <script>
          $(document).ready(function () {
             $("nav ul li").click(function(e) {
@@ -55,21 +56,6 @@
 
             });
             });
-            
-            // exit button
-            document.addEventListener("deviceready", onDeviceReady, false);
-
-            function onDeviceReady(){
-                document.addEventListener("backbutton", function(e){
-                   if($.mobile.activePage.is('#homepage')){
-                       e.preventDefault();
-                       navigator.app.exitApp();
-                   }
-                   else {
-                       navigator.app.backHistory()
-                   }
-                }, false);
-            }
          
         </script>
     
