@@ -38,14 +38,19 @@ function myEventHandler() {
 document.addEventListener('deviceready', function () {
     
   document.addEventListener("backbutton", function(e){
-//   if($.mobile.activePage.is('#homepage')){
-//       e.preventDefault();
-//       navigator.app.exitApp();
-//   }
-//   else {
-//       navigator.app.backHistory()
-//   }
-     alert("Hello Aq kembali");
+    
+      var bodyId = document.body.id;
+//      alert(bodyId);
+      
+   if(bodyId == 'index'){
+       e.preventDefault();
+       navigator.app.exitApp();
+   }
+   else {
+       navigator.app.backHistory()
+   }
+      
+//     alert("Hello Aq kembali");
   }, false);
   
   // Call syncHashedEmail anywhere in your app if you have the user's email.

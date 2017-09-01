@@ -26,10 +26,25 @@
     <!-- <script src="lib/jq/jquery.js"></script> -->
 
     <link rel="stylesheet" href="css/app.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    
+    <script type="text/javascript">
+        
+    $(document).ready(function (e) {
+        
+        $("#tombol").click(function(){
+            var bodyId = document.body.id;
+            alert(bodyId);
+        });
+        
+    });  // end document ready	
+        
+    </script>
+    
 </head>
 
 
-<body>
+<body id="index">
     <h1 class="align-center">A Blank Project Template</h1>
     <p class="align-center">
         To use this template as a starter app, start with init-app.js and app.js for your JavaScript code.
@@ -37,7 +52,7 @@
     </p>
     <br>
     <p class="align-center">
-        <input type="button" id="id_btnHello" value="Touch Me">
+        <input type="button" id="tombol" value="Touch Me">
     </p>
     
     <a href="hal2.html"> Halaman 2 </a>
